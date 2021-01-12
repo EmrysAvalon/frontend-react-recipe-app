@@ -1,10 +1,10 @@
 import React from 'react';
 import { ReactComponent as Clock } from '../../assets/time.svg';
-import './Card.css';
+import styles from './Card.module.css';
 
 function Card({ img, title, duration, highlight }) {
   return (
-    <article className="recipe-card">
+    <article className={styles["recipe-card"]}>
       <img src={img} alt={title} />
       <section>
         <Clock />

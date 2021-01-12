@@ -1,9 +1,9 @@
 import React from 'react';
-import './Header.css';
+import styles from './Header.module.css';
 
 function Header() {
   return (
-    <header>
+    <header className={styles["header-style"]}>
       <h1>NOVI recepenwebsite</h1>
       <p>Het beste voedsel om goed te studeren!</p>
     </header>
